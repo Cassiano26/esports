@@ -19,11 +19,14 @@ export default {
           30: '#D083F7',
           20: '#E1B0FA',
           10: '#F2DDFD',
+          11: '#3C0B5400',
+          12: '#3C0B5480',
+          13: '#FFFFFF30'
         }
       },
       fontFamily: {
         'main': ['Montserrat', 'ui-serif']
-      }
+      },
     },
   },
   plugins: [],

@@ -1,9 +1,11 @@
-import { Header } from "../components/header";
+import { Navbar } from "../components/navbar";
+import { Sponsors } from "../components/sponsors";
 
-export default function Layout() {
+export default function Home() {
   return (
-    <div className="w-[1728px] ml-auto mr-auto bg-primary-80">
-      <Header />
+    <div className="w-[1728px] ml-auto mr-auto">
+      <Navbar />
+      <Sponsors />
     </div>
   )
 }
